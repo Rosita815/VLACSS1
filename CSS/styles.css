@@ -1,6 +1,28 @@
+/*
+Sintaxis de CSS
+selectorEtiquetaHTML,Class,ID {
+    propiedad : valor ;
+    propiedad : valor ;
+    propiedad : valor ;
+} */
+
 html{
-    background-color: black;
+    background-color: #2081d9;
 }
 h1{
-    color: green;
+    color: #5b8015;
+    background-color: #f496d1;
+}
+p{
+    color: #baf4f9;
+}
+div{
+    background-color: red;
+    color: #fff;
+    width: 200PX;
+    height: 200PX;
+    border: 5px solid black;
+}
+a{
+    background-color: purple;
 }
