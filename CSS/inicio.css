@@ -1,0 +1,33 @@
+/* Selector universal y estamos reiniciando los valores del navegador */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+body{
+    background-color: #00586f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDFBF6;
+    width: 1000px;
+    height: 1000px;
+    margin: 10px auto;
+}
+header{
+    background-color: rgb(212, 0, 255);
+    height: 100px;
+}
+nav{
+    background-color: rgb(0, 255, 157);
+    height: 200px;
+}
+main{
+    background-color: rgb(255, 98, 0);
+    height: 550px;
+}
+footer{
+    background-color: rgb(0, 255, 8);
+    height: 150px;
+}
