@@ -27,6 +27,25 @@ main{
     background-color: rgb(255, 98, 0);
     height: 550px;
 }
+article{
+    width: 300px;
+    background-color: rgb(158, 206, 191);
+    padding: 1em;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 10%; 
+    
+}
+img{
+    width: 100%;
+    margin: 0 auto;
+    border: 3px dashed white;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
 footer{
     background-color: rgb(0, 255, 8);
     height: 150px;
