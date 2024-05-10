@@ -5,4 +5,12 @@
 
 body{
     background-color: rgb(210, 210, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 90%;
+    margin: 10px auto;
+}
+.main{
+    margin: 30px;
+    padding: 25px;
 }
