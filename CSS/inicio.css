@@ -1,0 +1,20 @@
+.clickme{
+    color: blue;
+}
+.clickme:active{
+    color: green;
+}
+
+.google{
+    color: blue;
+}
+.google:hover{
+    color: red;
+}
+
+.texto{
+    background-color: white;
+}
+.texto:focus{
+    background-color: rgb(193, 178, 10);
+}
