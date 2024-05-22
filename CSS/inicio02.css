@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: radial-gradient(circle at 88.96% 50%, #0076c8 0, #0074d1 6.25%, #0071d7 12.5%, #006edb 18.75%, #006adc 25%, #0065dc 31.25%, #005fd9 37.5%, #0f58d3 43.75%, #5050cc 50%, #6f47c3 56.25%, #863cb8 62.5%, #9930ab 68.75%, #a7219d 75%, #b30c8e 81.25%, #bc007f 87.5%, #c20070 93.75%, #c60060 100%);
+}
+body{
+    width: 90%;
+    margin: 15px auto;
+    background-color: white;
+    font-family: 'Arial',sans-serif;
+    height: 1000px;
+}
+header{
+    background-image: linear-gradient(270deg, #e8ac71 0, #e0b06e 3.85%, #d7b46b 7.69%, #cdb76b 11.54%, #c3ba6c 15.38%, #b8bd6e 19.23%, #adc073 23.08%, #a2c378 26.92%, #95c57f 30.77%, #89c787 34.62%, #7cc990 38.46%, #6eca9a 42.31%, #60cba4 46.15%, #50ccaf 50%, #3fccba 53.85%, #2bcdc5 57.69%, #11cccf 61.54%, #00ccd9 65.38%, #00cbe2 69.23%, #00caeb 73.08%, #13c8f2 76.92%, #30c6f9 80.77%, #47c4fe 84.62%, #5cc1ff 88.46%, #70beff 92.31%, #83bbff 96.15%, #94b8ff 100%);
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+.limpiar{
+    clear: both;
+}
+.logo img{
+    width: 100px;
+    position: static;
+
+}
+nav{
+    float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    width: 90%;
+    background-image: linear-gradient(270deg, #e8ac71 0, #e0b06e 3.85%, #d7b46b 7.69%, #cdb76b 11.54%, #c3ba6c 15.38%, #b8bd6e 19.23%, #adc073 23.08%, #a2c378 26.92%, #95c57f 30.77%, #89c787 34.62%, #7cc990 38.46%, #6eca9a 42.31%, #60cba4 46.15%, #50ccaf 50%, #3fccba 53.85%, #2bcdc5 57.69%, #11cccf 61.54%, #00ccd9 65.38%, #00cbe2 69.23%, #00caeb 73.08%, #13c8f2 76.92%, #30c6f9 80.77%, #47c4fe 84.62%, #5cc1ff 88.46%, #70beff 92.31%, #83bbff 96.15%, #94b8ff 100%);
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    bottom: 0;
+    position: fixed;
+}
+main{
+    padding: 20px;
+}
+#float-clear{
+
+}
+.separador {
+    border: 1px solid black;
+    margin: 20px 0;
+    clear: both;
+}
+.seccion {
+    background-color: #7cc990;
+}
+.subtitulo {
+    font-size: 1.5em;
+
+}
+.parrafo {
+    font-size: 1.2em;
+}
+.ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.li {
+    margin-top: 5px;
+    display: block;
+}
+.li:last-child {
+    padding-bottom: 10px;
+}
+.a {
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    color: rgb(225, 87, 87);
+}
